@@ -1,0 +1,13 @@
+Release Notes
+
+version 0.8 ()
+- swtimer: added return value to swtimer_start() method providing the actual timeout being received
+- swtimer: improved timer accuracy by modifying some integer arithmetic code to maintain precision
+- usart: don't echo EOF from getchar() when read blocking is disabled, read echo is enabled, and nothing is in the receive buffer
+
+version 0.7 ()
+- swtimer: added methods to attach and detach timer expiration handler
+- swclock: initial import.  software based clock (singleton).
+
+version 0.6 (3/20/10)
+- Initial release.
